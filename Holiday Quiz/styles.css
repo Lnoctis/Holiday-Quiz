@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url(./Media/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+  
+    background-image: url('./Media/textbg1.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    color: transparent; 
+    -webkit-background-clip: text;
+    background-clip: text;
+    text-align: center;
+    font-size: 36px;
+}
+   
+
+p{
+    color: whitesmoke;
+    font-size: 20px;
+}
+
+
+#game-container {
+    background-color: whitesmoke;
+    background-size: cover; 
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    width: 612px; 
+    margin: 0 auto;
+}
+
+
+#clue {
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-size: large;
+}
+
+#display {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#guess {
+    width: 200px;
+    padding: 5px;
+    font-size: 18px;
+}
+
+#checkButton {
+    background-color: #ff006a;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#checkButton:hover {
+    background-color: #0056b3;
+}
+
+#attempts {
+    font-size: 16px;
+}
+
+#message {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-top: 10px;
+}
+
+#newGameButton {
+    background-color: blue;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#newGameButton:hover {
+    background-color: #1e7e34;
+}
+/* .clicker {
+
+    margin-top: 200px;
+    
+} */
